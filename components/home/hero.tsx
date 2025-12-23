@@ -64,7 +64,7 @@ export function Hero() {
                     </div>
 
                     {/* Right Column: Chairman Photo & Quote */}
-                    <div className="flex-1 w-full hidden lg:block">
+                    <div className="flex-1 w-full mt-16 lg:mt-0">
                         <motion.div
                             initial={{ opacity: 0, x: 50 }}
                             animate={{ opacity: 1, x: 0 }}
