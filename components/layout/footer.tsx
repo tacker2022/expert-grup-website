@@ -34,6 +34,7 @@ export function Footer() {
                             <FooterLink href="/companies">Grup Şirketleri</FooterLink>
                             <FooterLink href="/vision">Vizyon & Değerler</FooterLink>
                             <FooterLink href="/projects">Projeler</FooterLink>
+                            <FooterLink href="/career">Kariyer / İK</FooterLink>
                         </ul>
                     </div>
 
