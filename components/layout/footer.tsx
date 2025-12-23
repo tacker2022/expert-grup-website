@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Facebook, Instagram, Linkedin, Twitter, MapPin, Phone, Mail } from "lucide-react";
+import { Logo } from "@/components/ui/logo";
 
 export function Footer() {
     const currentYear = new Date().getFullYear();
@@ -11,9 +12,7 @@ export function Footer() {
                     {/* Brand Column */}
                     <div className="space-y-6">
                         <Link href="/" className="inline-block">
-                            <span className="text-2xl font-bold tracking-tight text-white">
-                                EXPERT<span className="text-expert-gold">GRUP</span>
-                            </span>
+                            <Logo variant="light" />
                         </Link>
                         <p className="text-gray-300 text-sm leading-relaxed max-w-xs">
                             Sürdürülebilir mobilite, enerji ve gayrimenkul çözümleriyle geleceği inşa eden, çok disiplinli bir şirketler grubu.

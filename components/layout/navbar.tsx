@@ -5,6 +5,7 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { Logo } from "@/components/ui/logo";
 
 const navLinks = [
     { name: "Kurumsal", href: "/about" },
@@ -39,12 +40,7 @@ export function Navbar() {
             <div className="container mx-auto px-6 flex items-center justify-between">
                 {/* Logo */}
                 <Link href="/" className="flex items-center gap-2 group">
-                    <span className={cn(
-                        "text-2xl font-bold tracking-tight transition-colors",
-                        isScrolled ? "text-expert-navy" : "text-white"
-                    )}>
-                        EXPERT<span className="text-expert-gold">GRUP</span>
-                    </span>
+                    <Logo variant={isScrolled ? "colored" : "light"} />
                 </Link>
 
                 {/* Desktop Navigation */}

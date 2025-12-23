@@ -5,27 +5,33 @@
   --expert-navy: #0A192F;
   --expert-anthracite: #1C1C1C;
   --expert-gold: #D4AF37;
-  --expert-gold-soft: #E5C454; /* Softer gold for hover/accents */
-  
+  --expert-gold-soft: #E5C454;
+  /* Softer gold for hover/accents */
+  --expert-blue: #00A3E0;
+  /* Cyan/Blue for Logo X */
+
   --background: #ffffff;
-  --foreground: #0A192F; /* Navy as main text color */
+  --foreground: #0A192F;
+  /* Navy as main text color */
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  
+
   --color-expert-navy: var(--expert-navy);
   --color-expert-anthracite: var(--expert-anthracite);
   --color-expert-gold: var(--expert-gold);
   --color-expert-gold-soft: var(--expert-gold-soft);
+  --color-expert-blue: var(--expert-blue);
 
   --font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0A192F; /* Deep Navy background for dark mode */
+    --background: #0A192F;
+    /* Deep Navy background for dark mode */
     --foreground: #ffffff;
   }
 }
