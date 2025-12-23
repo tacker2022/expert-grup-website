@@ -1,26 +1,39 @@
 @import "tailwindcss";
 
 :root {
+  /* Expert Grup Color Palette */
+  --expert-navy: #0A192F;
+  --expert-anthracite: #1C1C1C;
+  --expert-gold: #D4AF37;
+  --expert-gold-soft: #E5C454; /* Softer gold for hover/accents */
+  
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #0A192F; /* Navy as main text color */
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  
+  --color-expert-navy: var(--expert-navy);
+  --color-expert-anthracite: var(--expert-anthracite);
+  --color-expert-gold: var(--expert-gold);
+  --color-expert-gold-soft: var(--expert-gold-soft);
+
+  --font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0A192F; /* Deep Navy background for dark mode */
+    --foreground: #ffffff;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-manrope);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
