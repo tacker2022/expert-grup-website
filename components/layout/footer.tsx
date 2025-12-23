@@ -54,15 +54,15 @@ export function Footer() {
                         <ul className="space-y-4 text-gray-300 text-sm">
                             <li className="flex items-start gap-3">
                                 <MapPin className="w-5 h-5 text-expert-gold shrink-0" />
-                                <span>Maslak Mah. Büyükdere Cad. No:1, Sarıyer / İstanbul</span>
+                                <span>İnkilap Mah. Küçüksu Cad. Antasya Residence Ümraniye/İSTANBUL</span>
                             </li>
                             <li className="flex items-center gap-3">
                                 <Phone className="w-5 h-5 text-expert-gold shrink-0" />
-                                <span>+90 (212) 123 45 67</span>
+                                <span>0 216 504 47 22</span>
                             </li>
                             <li className="flex items-center gap-3">
                                 <Mail className="w-5 h-5 text-expert-gold shrink-0" />
-                                <span>info@expertgrup.com</span>
+                                <span>info@expertgrup2030.com</span>
                             </li>
                         </ul>
                     </div>

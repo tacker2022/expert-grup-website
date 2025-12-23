@@ -33,20 +33,20 @@ export default function ContactPage() {
                                             title="Adres"
                                             content={
                                                 <>
-                                                    Maslak Mah. Büyükdere Cad. No:1<br />
-                                                    Sarıyer / İstanbul, Türkiye
+                                                    İnkilap Mah. Küçüksu Cad.<br />
+                                                    Antasya Residence Ümraniye/İSTANBUL
                                                 </>
                                             }
                                         />
                                         <ContactItem
                                             icon={Phone}
                                             title="Telefon"
-                                            content="+90 (212) 123 45 67"
+                                            content="0 216 504 47 22"
                                         />
                                         <ContactItem
                                             icon={Mail}
                                             title="E-Posta"
-                                            content="info@expertgrup.com"
+                                            content="info@expertgrup2030.com"
                                         />
                                         <ContactItem
                                             icon={Clock}
