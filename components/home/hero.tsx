@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export function Hero() {
     return (
-        <section className="relative h-screen min-h-[800px] flex items-center justify-center overflow-hidden bg-expert-navy text-white">
+        <section className="relative h-screen min-h-[800px] flex items-start lg:items-center justify-center overflow-hidden bg-expert-navy text-white">
             {/* Abstract Background */}
             <div className="absolute inset-0 z-0">
                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(212,175,55,0.15),transparent_50%)]" />
