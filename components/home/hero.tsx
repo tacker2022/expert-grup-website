@@ -17,7 +17,7 @@ export function Hero() {
                 <div className="absolute inset-0 opacity-10 bg-[linear-gradient(rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:100px_100px]" />
             </div>
 
-            <div className="container relative z-10 mx-auto px-6">
+            <div className="container relative z-10 mx-auto px-6 pt-32 lg:pt-0">
                 <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-24">
                     {/* Left Column: Text */}
                     <div className="flex-1 max-w-3xl">
