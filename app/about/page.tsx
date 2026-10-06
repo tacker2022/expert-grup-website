@@ -2,7 +2,6 @@ import { PageHeader } from "@/components/layout/page-header";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
 import { CheckCircle2, Award, Users, Globe } from "lucide-react";
-import { TeamList } from "@/components/about/team-list";
 
 export const metadata = {
     title: "Hakkımızda | Expert Grup",
@@ -72,9 +71,6 @@ export default function AboutPage() {
                         </div>
                     </div>
                 </section>
-
-                {/* Team Section (Executive List) */}
-                <TeamList />
 
                 {/* Values Grid */}
                 <section className="py-24 bg-gray-50">

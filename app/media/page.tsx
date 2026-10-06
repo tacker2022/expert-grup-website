@@ -39,8 +39,8 @@ const NEWS = [
     },
     {
         id: "4",
-        title: " Dijital Dönüşümde Liderlik: Teknoloji Zirvesi Notları",
-        excerpt: "CTO'muz Mehmet Demir'in Global Tech Summit'te yaptığı konuşmadan öne çıkan başlıklar ve gelecek vizyonumuz.",
+        title: "Dijital Dönüşümde Liderlik: Teknoloji Zirvesi Notları",
+        excerpt: "Global Tech Summit'te paylaşılan dijital dönüşüm stratejileri, sektördeki son teknolojik yenilikler ve gelecek vizyonumuz.",
         category: "Sektörel",
         date: "28 Ekim 2024",
         image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=2664&auto=format&fit=crop",

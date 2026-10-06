@@ -69,8 +69,8 @@ export default function ContactPage() {
 
                                 <form className="space-y-6">
                                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                        <InputGroup label="Adınız Soyadınız" placeholder="John Doe" />
-                                        <InputGroup label="E-Posta Adresiniz" placeholder="john@example.com" type="email" />
+                                        <InputGroup label="Adınız Soyadınız" placeholder="Adınız Soyadınız" />
+                                        <InputGroup label="E-Posta Adresiniz" placeholder="adiniz@sirket.com" type="email" />
                                     </div>
                                     <InputGroup label="Konu" placeholder="Proje talebi hakkında..." />
 
